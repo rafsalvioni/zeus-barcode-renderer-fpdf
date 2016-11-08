@@ -1,0 +1,24 @@
+{
+    "name": "rafsalvioni/zeus-barcode-renderer-fpdf",
+    "description": "Provides a renderer to draw barcodes as PDF files using FPDF package",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "barcode", "zeus", "renderer", "fpdf", "pdf"
+    ],
+    "homepage": "https://github.com/rafsalvioni/zeus-barcode-renderer-fpdf",
+    "autoload": {
+        "psr-4": {
+            "Zeus\\Barcode\\Renderer\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ZeusTest\\Barcode\\Renderer\\": "test/"
+        }
+    },
+    "require": {
+        "php": ">=5.5 <6",
+        "rafsalvioni/zeus-barcode-core": "1.*",
+        "setasign/fpdi-fpdf": "1.6.*"
+    }
+}
