@@ -18,7 +18,7 @@
     },
     "require": {
         "php": ">=5.5 <6",
-        "rafsalvioni/zeus-barcode-core": "1.*",
+        "rafsalvioni/zeus-barcode": "1.1.*",
         "setasign/fpdi-fpdf": "1.6.*"
     }
 }
