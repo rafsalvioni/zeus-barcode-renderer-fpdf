@@ -174,7 +174,7 @@ class FpdfRenderer extends AbstractRenderer
     {
         $arr = (array)$pdf;
         $key = "\x0*\x0k";
-        $val = \array_get($arr, $key, 1);
+        $val = $arr[$key] ?? 1;
         return (1 / $val) * .75;
     }
 
