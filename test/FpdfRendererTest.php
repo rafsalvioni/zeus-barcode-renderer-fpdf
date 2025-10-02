@@ -7,7 +7,7 @@ namespace ZeusTest\Barcode\Renderer;
  *
  * @author Rafael M. Salvioni
  */
-class FpdfRendererTest extends \PHPUnit_Framework_TestCase
+class FpdfRendererTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @test
